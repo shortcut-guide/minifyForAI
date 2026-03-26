@@ -27,11 +27,11 @@ export const processUser=(name:string,age:number):string=>{const message=`Hello,
 
 ---
 # Get started
-'''
+```
 npm install -D esbuild
-npm pkg set scripts.minify="node scripts/minify-ts.js src/index.ts dist/ai-prompt.ts"
+npm pkg set scripts.bundle="node scripts/bundle-for-ai.js"
 npm run minify
-'''
+```
 
 ---
 # 複数ファイルをまとめるとトークンはどうなる？
